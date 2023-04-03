@@ -1,0 +1,26 @@
+/* CSS HEX */
+/* 
+--mint-green: #defffcff;
+--penn-red: #960200ff;
+--night: #171614ff;
+--true-blue: #586ba4ff;
+--atomic-tangerine: #f68e5fff;
+*/
+
+* {
+    background-color: #171614ff;
+    color: #defffcff;
+}
+
+#introimg {
+    width: 80vw;
+}
+
+#slogan {
+    background-color: transparent;
+    position: fixed;
+    top: 60vw;
+    left: 20vw;
+    backface-visibility: visible;
+    font-size: 10vw;
+}
