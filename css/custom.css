@@ -35,7 +35,7 @@
     left: 50vw;
     backface-visibility: visible;
     font-size: 8vw;
-    transition: 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 
 #slogan:hover {
@@ -47,9 +47,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .goal {
-    border: #f68e5fff, solid, 2px;
+    border: #f68e5fff solid 0.5em;
     border-radius: 2rem;
+    width: 23vw;
+    height: 12em;
+    padding: 2em;
+}
+
+.goal:hover .keyword {
+    color: #586ba4ff;
 }
